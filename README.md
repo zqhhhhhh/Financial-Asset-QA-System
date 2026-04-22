@@ -1,7 +1,7 @@
 # 🤖 Financial Asset QA System — 金融资产问答系统
 
 <p align="center">
-  <img src="doc/thumbernail.png" alt="Thumbernail" width="500"/>
+  <img src="doc/thumbernail.png" alt="Thumbernail" width="600"/>
 </p>
 
 <p align="center">
@@ -9,6 +9,35 @@
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://zqhhhhhh.github.io/zqhhhhhh/#/project"><strong>Portfolio 作品集</strong></a>
 </p>
+
+---
+
+## 📸 功能示例
+
+**资产行情问答** — 实时股价 + 新闻驱动分析
+
+<p align="center">
+  <img src="doc/资产问答示例.png" alt="资产问答示例" width="700"/>
+</p>
+
+**金融知识问答** — 财报摘要 + RAG 检索回答
+
+<p align="center">
+  <img src="doc/金融知识问答示例.png" alt="金融知识问答示例" width="700"/>
+</p>
+
+---
+
+## 📋 目录
+
+- [🧩 系统架构](#-系统架构)
+- [🛠️ 技术选型说明](#️-技术选型说明)
+- [🧠 Prompt 设计思路](#-prompt-设计思路)
+- [📊 数据来源说明](#-数据来源说明)
+- [🚀 本地部署](#-本地部署)
+- [⚡ 快速启动（已配置过环境后）](#-快速启动已配置过环境后)
+- [💡 优化与扩展思考](#-优化与扩展思考)
+- [📁 项目结构](#-项目结构)
 
 ---
 
