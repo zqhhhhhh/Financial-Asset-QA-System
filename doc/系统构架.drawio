@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="kfxpBe7hO1mBPAJaFQl0">
+    <mxGraphModel dx="964" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="450" width="670" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="用户输入" vertex="1">
+          <mxGeometry height="30" width="120" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;div style=&quot;line-height: 155%;&quot;&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;font-size: 13.6px; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;  &lt;/code&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt;RouterService&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;LLM对用户提问意图分类&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="365" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div style=&quot;line-height: 155%;&quot;&gt;&lt;div&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt; TickerResolver&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;LLM解析公司股票代码&lt;div&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); font-size: 13.6px; margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); font-size: 13.6px; tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;PeriodResolver&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div&gt;LLM解析问题时间段&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="190" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; line-height: 1.45; overflow: auto; caret-color: rgb(31, 35, 40);&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; line-height: inherit; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt;is_report_query()&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;line-height: 155%;&quot;&gt;&lt;div&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40);&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;    FinancialReportService  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;yfinance获取季度/年度财务数据&lt;div&gt;SEC EDGAR / CNINFO获取财报原文链接&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="230" x="381" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-7" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-8" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SdsVCsTZvX1tqD9lcoct-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LLM自由回答" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="资产行情" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="金融知识/财报" vertex="1">
+          <mxGeometry height="30" width="90" x="550" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SdsVCsTZvX1tqD9lcoct-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="160" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="与金融无关" vertex="1">
+          <mxGeometry height="30" width="120" x="380" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-19" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SdsVCsTZvX1tqD9lcoct-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div style=&quot;line-height: 155%;&quot;&gt;&lt;div&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;font-size: 13.6px; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;  &lt;/code&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt;Finnhub API&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt; yfinance API&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;获取到相关时间段&lt;div&gt;股票信息+相关新闻&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="190" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SdsVCsTZvX1tqD9lcoct-23" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SdsVCsTZvX1tqD9lcoct-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="290" as="sourcePoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-1" parent="1" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="FAST API后端" vertex="1">
+          <mxGeometry height="30" width="100" x="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-2" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-22" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="icOV62wi8JDYBGaUOX7n-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div style=&quot;line-height: 155%;&quot;&gt;&lt;div&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;font-size: 13.6px; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;    &lt;/code&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt;AssetService&lt;/font&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;LLM基于提供的信息生成【事实】和【分析】&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;line-height: 155%;&quot;&gt;&lt;div&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;font-size: 13.6px; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;    &lt;/code&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt;RAGService&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;FAISS向量检索&lt;/div&gt;&lt;div style=&quot;line-height: 155%;&quot;&gt;（327篇Wikipedia数据库）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-5" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-4" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SdsVCsTZvX1tqD9lcoct-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-6" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-4" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="icOV62wi8JDYBGaUOX7n-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="财报类" vertex="1">
+          <mxGeometry height="30" width="60" x="504" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="知识类" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="LLM基于数据库信息回答问题" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;line-height: 155%;&quot;&gt;&lt;div&gt;&lt;pre class=&quot;notranslate&quot; style=&quot;text-align: start; box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); margin-top: 0px; margin-bottom: 0px; tab-size: var(--tab-size-preference); overflow-wrap: normal; padding: var(--base-size-16); color: rgb(31, 35, 40); background-color: rgb(246, 248, 250); border-radius: 6px; overflow: auto; caret-color: rgb(31, 35, 40); line-height: 155%;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace); tab-size: var(--tab-size-preference); background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; background-attachment: scroll; background-origin: padding-box; background-clip: border-box; border-radius: 6px; margin: 0px; padding: 0px; word-break: normal; border: 0px; overflow-wrap: normal; display: inline; overflow: visible;&quot;&gt;&lt;font&gt;WebSearchService&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;DuckDuckGo搜索&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="570" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-15" edge="1" parent="1" source="icOV62wi8JDYBGaUOX7n-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="icOV62wi8JDYBGaUOX7n-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-16" edge="1" parent="1" source="icOV62wi8JDYBGaUOX7n-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="icOV62wi8JDYBGaUOX7n-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="370" as="sourcePoint" />
+            <mxPoint x="760" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="命中" vertex="1">
+          <mxGeometry height="30" width="60" x="730" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="未命中" vertex="1">
+          <mxGeometry height="30" width="60" x="624" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="LLM总结" vertex="1">
+          <mxGeometry height="40" width="110" x="580" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-20" edge="1" parent="1" source="icOV62wi8JDYBGaUOX7n-13" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="icOV62wi8JDYBGaUOX7n-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="LLM基于财务数据生成结构化分析报告" vertex="1">
+          <mxGeometry height="70" width="130" x="431" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-23" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="icOV62wi8JDYBGaUOX7n-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;React前端&lt;div style=&quot;line-height: 140%;&quot;&gt;返回LLM回答&lt;div style=&quot;line-height: 140%;&quot;&gt;+参考信息来源&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="425" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="icOV62wi8JDYBGaUOX7n-27" edge="1" parent="1" source="SdsVCsTZvX1tqD9lcoct-20" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="icOV62wi8JDYBGaUOX7n-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="370" as="sourcePoint" />
+            <mxPoint x="620" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

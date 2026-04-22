@@ -43,72 +43,9 @@
 
 ## 🧩 系统架构
 
-```
-用户输入
-   │
-   ▼
-┌─────────────────────────────────────────────────────────────┐
-│                      FastAPI 后端                            │
-│                                                              │
-│  ┌──────────────┐                                            │
-│  │ RouterService│  LLM 意图分类（Intent 1 / 2 / 3）          │
-│  └──────┬───────┘                                            │
-│         │                                                    │
-│    ┌────┴────────────────────────────┐                       │
-│    │                                 │                       │
-│    ▼ Intent 1                        ▼ Intent 2              │
-│  ┌────────────────┐      ┌──────────────────────────────┐   │
-│  │  AssetService  │      │         RAGService            │   │
-│  │                │      │                               │   │
-│  │ TickerResolver │      │  ① FinancialReportService     │   │
-│  │ (LLM + alias)  │      │    yfinance 季度/年度财报      │   │
-│  │                │      │    SEC EDGAR (美股)            │   │
-│  │ NewsService    │      │    CNINFO (A股)               │   │
-│  │ Finnhub API    │      │                               │   │
-│  │ yfinance 日线  │      │  ② FAISS 向量检索             │   │
-│  │                │      │    sentence-transformers       │   │
-│  │ LLM 分析生成  │      │    327 篇 Wikipedia 知识库      │   │
-│  └────────────────┘      │                               │   │
-│                          │  ③ DuckDuckGo Web Search      │   │
-│                          └──────────────────────────────┘   │
-│                                                              │
-│  ┌──────────────────────┐                                    │
-│  │   SessionService     │  多轮对话历史管理                    │
-│  └──────────────────────┘                                    │
-│                                                              │
-│  ┌──────────────────────┐                                    │
-│  │     LLMService       │  Gemini 2.5 Flash                  │
-│  │  (Google Gemini API) │  支持 thinking_budget 控制          │
-│  └──────────────────────┘                                    │
-└─────────────────────────────────────────────────────────────┘
-               │
-               ▼
-      React 前端（Vite）
-      聊天界面 + 行情卡片 + 新闻列表 + 财报链接
-```
-
-### 🔄 请求处理流程
-
-**Intent 1 — 资产行情**
-```
-用户问题 → TickerResolver（LLM + alias cache）→ 解析 ticker
-         → DateRangeExtractor（LLM）→ 解析查询时间段
-         → yfinance 拉取日线/分钟级行情
-         → Finnhub / yfinance 拉取新闻（最多 200 条）→ 相关度排序 top5
-         → LLM 生成【事实】+【分析】
-```
-
-**Intent 2 — 金融知识 / 财报**
-```
-用户问题 → is_report_query() 判断
-    ├── 财报类 → FinancialReportService
-    │            → yfinance 季度/年度财务数据（含同比/环比预计算）
-    │            → SEC EDGAR / CNINFO 原文链接
-    │            → LLM 生成结构化分析报告
-    └── 知识类 → FAISS 向量检索（cosine 相似度）
-                  ├── 命中（score ≥ 0.28）→ LLM 基于知识库回答
-                  └── 未命中 / 无关 → DuckDuckGo Web Search → LLM 总结
-```
+<p align="center">
+  <img src="doc/系统构架.svg" alt="系统架构" width="800"/>
+</p>
 
 ---
 
