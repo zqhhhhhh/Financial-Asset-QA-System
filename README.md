@@ -1,10 +1,14 @@
-# Financial Asset QA System — 金融资产问答系统
+# 🤖 Financial Asset QA System — 金融资产问答系统
 
-![Thumbnail](doc/thumbernail.png)
+<p align="center">
+  <img src="doc/thumbernail.png" alt="Thumbernail" width="500"/>
+</p>
 
-一个基于大语言模型（LLM）+ 检索增强生成（RAG）的中文金融问答系统，支持资产问答和金融知识问答两大场景。
-
-**[Demo 演示](#)** · **[Portfolio 作品集](https://zqhhhhhh.github.io/zqhhhhhh/#/project)**
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=BBjlg-sMpcE"><strong>Demo 演示</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://zqhhhhhh.github.io/zqhhhhhh/#/project"><strong>Portfolio 作品集</strong></a>
+</p>
 
 ---
 
