@@ -1,0 +1,11 @@
+fastapi==0.115.2
+uvicorn==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+google-generativeai==0.8.3
+yfinance==0.2.54
+numpy==2.1.2
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.2.0
+requests==2.32.3
+ddgs
