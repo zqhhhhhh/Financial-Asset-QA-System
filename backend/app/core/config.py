@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     gemini_model: str = "gemini-2.5-flash"
     llm_temperature: float = 0.1
     rag_top_k: int = 4
-    rag_score_threshold: float = 0.28
+    rag_score_threshold: float = 0.30
     finnhub_api_key: str = ""
 
     model_config = SettingsConfigDict(

@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=BBjlg-sMpcE"><strong>Demo 演示</strong></a>
+  <a href="https://youtu.be/pkbnxqPzyDk"><strong>Demo 演示</strong></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://zqhhhhhh.github.io/zqhhhhhh/#/project"><strong>Portfolio 作品集</strong></a>
 </p>
@@ -44,7 +44,7 @@
 ## 🧩 系统架构
 
 <p align="center">
-  <img src="doc/系统构架.svg" alt="系统架构" width="800"/>
+  <img src="doc/系统构架.svg" alt="系统架构" width="700"/>
 </p>
 
 ---

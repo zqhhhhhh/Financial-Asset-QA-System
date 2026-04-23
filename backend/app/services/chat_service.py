@@ -8,7 +8,7 @@ from app.services.ticker_resolver import TickerResolverService
 
 GENERAL_SYSTEM = (
     "你是一位专业的金融助手，使用中文纯文本回答，禁止使用任何 Markdown 符号（不要 **、##、- 列表等）。"
-    "直接进入正题，不要以「您好」开头，语气专业友好，回答不超过 250 字。"
+    "直接进入正题，不要以「您好」开头，语气专业友好，回答完整清晰，不要截断。"
 )
 
 
@@ -46,5 +46,5 @@ class ChatOrchestrator:
         messages = [{"role": "system", "content": GENERAL_SYSTEM}]
         messages.extend(history)  # includes current user turn already appended
         if self.llm_service.available:
-            return self.llm_service.chat(messages, temperature=0.3, max_tokens=350)
+            return self.llm_service.chat(messages, temperature=0.3, max_tokens=800)
         return "General chat requires a configured LLM. Please set GEMINI_API_KEY in backend/.env."

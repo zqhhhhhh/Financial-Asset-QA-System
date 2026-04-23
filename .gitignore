@@ -24,3 +24,9 @@ frontend/.vite/
 # Temporary
 *.tmp
 *.log
+
+# Video
+*.mp3
+*.mp4
+*.MOV
+demo.md
